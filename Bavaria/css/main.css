@@ -1,0 +1,289 @@
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1120px;
+    background: url("/img/main/bg__bayern.svg") center/cover no-repeat;
+    z-index: -1;
+}
+
+header p a:not(:first-of-type)::after, footer p a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #DC052D;
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+}
+
+section.first div.text p {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+section.first div.text {width: 670px}
+
+section.first div.text h1 {font-size: 100px}
+
+section.first::after {
+    content: "";
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+    height: 6243px;
+    background: url("/img/main/bg__section.svg") center/cover no-repeat;
+    z-index: -10;
+}
+
+section.second {margin-top: 350px}
+
+section.second>h1 {
+    color: #A000304D;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+}
+
+section.second div.procent {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+}
+
+section.second div.procent div {
+    width: 660px;
+    height: 71px;
+    border: 2px solid #FFFFFF;
+    background: #31000F;
+    position: relative;
+    z-index: 1000;
+}
+
+section.second div.procent div div {
+    color: #FFFFFF;
+    background: #DC052D;
+    width: 84%;
+    float: left;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+}
+
+section.second div.procent div div p {margin-top: 19px}
+
+section.second div.procent img {
+    position: relative;
+    top: -10px; 
+    margin-left: -50px;
+}
+
+section.third h1 {
+    margin-top: 83px;
+    color: #A000304D;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+    text-align: end;
+}
+
+section.third>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+section.third div div {margin-top: 30px}
+
+section.third div div h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 70px;
+}
+
+section.third div div p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+section.fourth h1 {
+    color: #A000304D;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+}
+
+section.fourth>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+section.fourth div div h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+section.fourth div div p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 35px;
+}
+
+section.fourth div img {
+    position: relative;
+    top: 70px;
+}
+
+section.fifth h1 {
+    margin-top: 100px ;
+    color: #A000304D;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+}
+
+section.fifth div {
+    background: #31000F;
+    height: auto;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+section.fifth div p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+section.fifth button {
+    display: block;
+    margin: 50px auto;
+}
+
+section.sixth h3 {
+    color: #FFFFFF;
+    text-align: end;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+section.sixth h1 {
+    color: #A000304D;
+    text-align: end;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+    margin-top: 30px;
+}
+
+section.sixth img {
+    position: relative;
+    right: 174px;
+    margin-top: 100px;
+}
+
+section.seventh h1 {
+    color: #A000304D;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section.seventh>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.seventh>div div {width: 500px}
+
+section.seventh>div div div:first-of-type {
+    background-image: url('/img/main/NEWS.svg');
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+section.seventh>div div div:first-of-type::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #31000F;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+section.seventh>div div div:first-of-type:hover::after {opacity: 0.8}
+
+section.seventh>div div div:first-of-type button {
+    z-index: 1000;
+    position: relative;
+    opacity: 0;
+    margin: 125px 154px;
+    padding: 10px 70px;
+}
+
+section.seventh>div div div:first-of-type:hover button {opacity: 1}
+
+section.seventh>div div div:last-of-type {
+    background: #31000F;
+}
+
+section.seventh>div div div:last-of-type h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 30px;
+    padding: 15px 15px;
+}
+
+section.seventh>div div div:last-of-type p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 35px;
+    padding: 0 15px 15px 15px;
+}
+
+section.eighth h1 {
+    color: #A000304D;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: end;
+}

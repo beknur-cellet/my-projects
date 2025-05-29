@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="../img/Logo.svg">
+    <title>FC Bayern</title>
+    <link rel="stylesheet" href="../css/copy.css">
+    <link rel="stylesheet" href="/css/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1 onclick="window.location.href='/index.html'"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i> TO HOMEPAGE</h1>
+    </div>
+    <main>
+        <div>
+            <h1>Login</h1>
+            <form id="myForm">
+                <label for="Name">Login <span class="required">*</span> :</label>
+                <input type="text" id="Name" minlength="4" maxlength="16">
+                <label for="Password">Password <span class="required">*</span> :</label>
+                <input type="password" id="Password" minlength="8" maxlength="16">
+                <div class="input-container">
+                    <label for="code">Enter Code <span class="required">*</span> :</label>
+                    <div class="input-wrapper">
+                      <input type="text" id="code"/>
+                      <span class="code-display">34 FR14</span>
+                    </div>
+                </div> 
+                <a href="#">Forgot password?</a>
+                <button class="red" type="submit" id="resetBtn">login</button>
+            </form>
+        </div>
+    </main>
+    <div class="container">
+        <footer>
+            <img src="/img/main/footer__image.svg">
+            <p>
+                <a href="/index.html">Home</a>
+                <a href="/dist/About_the_club.html">About the club</a>
+                <a href="/dist/FAQ.html">FAQ</a>
+                <a href="/dist/News.html">News</a>
+                <a href="/dist/Rules.html">Rules</a>
+                <a href="/dist/Contacts.html">Contacts</a>
+            </p>
+            <div>
+                <img src="/img/main/instagramm-2.svg">
+                <img src="/img/main/YouTube-2.svg">
+                <img src="/img/main/Facebook-2.svg">
+                <img src="/img/main/Twitter-2.svg">
+            </div>
+            <section>
+                <p>Copyright © 2024 Bayern Token. All rights reserved.</p>
+            </section>
+        </footer>
+    </div>
+
+    <script src="/js/Login.js"></script>
+</body>
+</html>

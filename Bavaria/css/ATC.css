@@ -1,0 +1,262 @@
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 642px;
+    background: #31000FCC;
+    opacity: .8;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%, 0 100%);
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 642px;
+    background: url("/img/ATC/header__before.svg")  no-repeat;
+    z-index: -1;
+}
+
+section.first div.text h1 {
+    font-size: 120px;
+    margin-top: -100px;
+}
+
+section.first::after {
+    content: "";
+    position: absolute;
+    top: 550px;
+    left: 0;
+    width: 100%;
+    height: 4958px;
+    background: url("/img/main/bg__section.svg") center/cover no-repeat;
+    z-index: -1;
+}
+
+section.second {margin-top: 40px}
+
+section.second>h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;    
+}
+
+section.second>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section.second div p, section.second p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    width: 810px;
+}
+
+section.second div div::before {
+    content: "";
+    position: absolute;
+    width: 754px;
+    height: 480px;
+    background: #A00030;
+    z-index: -1;
+    box-shadow: 0px 0px 53px 60px rgba(160, 0, 48, 0.2);
+    border-radius: 50%;
+}
+
+section.second h3:last-of-type {margin: 50px 0}
+
+section.second p { width: 100%;}
+
+section.third>h1 {
+    color: #FFFFFF;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+}
+
+section.third>div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+section.third>div div {
+    width: 520px;
+    color: #FFFFFF;
+    border: 2px solid #3D0011;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+section.third>div div img {
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+section.third>div div h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+section.third>div div p {
+    padding: 20px 67.5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+    text-align: center;    
+}
+
+section.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+section.fourth button {position: relative}
+
+section.fourth button::after {
+    content: "";
+    position: absolute;
+    width: 1920px;
+    height: 200px;
+    left: -824px;
+    top: -71px;
+    background: url("/img/ATC/BG_button.svg");
+    z-index: -1;
+}
+
+section.fifth { margin-top: 100px;}
+
+section.fifth h1 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+}
+
+section.fifth>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+
+section.fifth div img {
+    width: 754px;
+    height: 480px;
+    object-fit: cover;
+    position: relative;
+}
+
+section.fifth div div::before {
+    content: "";
+    position: absolute;
+    width: 754px;
+    height: 480px;
+    background: #A00030;
+    z-index: -1;
+    box-shadow: 0px 0px 63px 40px rgba(160, 0, 48, 0.3);
+    border-radius: 50%;
+}
+
+section.fifth div p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    width: 790px;
+}
+
+section.fifth h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+section.fifth div:last-of-type p {width: 100%}
+
+section.sixth {
+    position: relative;
+    left: 100px;
+    width: 97%;
+}
+
+section.sixth div#slider {
+    position: relative;
+    left: -100px;
+}
+
+section.sixth img {
+    margin-right: 30px;
+    width: 506px;
+}
+
+section.sixth .fa-chevron-left,
+section.sixth .fa-chevron-right {
+    font-size: 28px;
+    position: absolute;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth .fa-chevron-left {
+    left: -40px;
+    top: 150px;
+}
+
+section.sixth .fa-chevron-right {
+    right: -40px;
+    top: 150px;
+}
+
+section.sixth .fa-chevron-left:hover,
+section.sixth .fa-chevron-right:hover {transform: scale(1.4)}
+
+section.seventh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+section.seventh button {
+    padding: 12px 70px;
+}
+
+section.eighth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+section.eighth p {
+    color: #FFFFFF;
+    width: 810px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+}

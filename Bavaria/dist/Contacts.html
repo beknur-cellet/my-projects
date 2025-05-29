@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="../img/Logo.svg">
+    <title>FC Bayern</title>
+    <link rel="stylesheet" href="../css/copy.css">
+    <link rel="stylesheet" href="/css/Contacts.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../img/Logo.svg" id="logos">
+            <div>
+                <p>
+                    <a href="../index.html">Home</a>
+                    <a href="/dist/About_the_club.html">About the club</a>
+                    <a href="/dist/FAQ.html">FAQ</a>
+                    <a href="/dist/News.html">News</a>
+                    <a href="/dist/Rules.html">Rules</a>
+                    <a class="active">Contacts</a>
+                    <button class="red" type="button" onclick="window.location.href='/dist/Login.html'">Login</button>
+                    <button class="blue" type="button" onclick="window.location.href='/dist/Sign_Up.html'">Sign up</button>
+                </p>
+            </div>
+        </header>
+        <section class="first">
+            <div class="text">
+                <h1>CONTACTS</h1>
+            </div>
+            <div class="logos">
+                <img src="../img/main/instagramm.svg">
+                <img src="../img/main/YouTube.svg">
+                <img src="../img/main/Facebook.svg">
+                <img src="../img/main/Twitter.svg">
+            </div>
+        </section>
+        <section class="second">
+            <div>
+                <div>
+                    <h3>Contact Information</h3>
+                    <div>
+                        <img src="/img/Contacts/Mab.svg">
+                        <p>Support: <br> <a>bayerntoken@support.com</a></p>
+                    </div>
+                    <div>
+                        <img src="/img/Contacts/Question.svg">
+                        <p>General issues: <br> <a>bayerntoken@support.com</a></p>
+                    </div>
+                    <div>
+                        <img src="/img/Contacts/Handshake.svg">
+                        <p>Partnership: <br> <a>bayerntoken@support.com</a></p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Drop Us a Line</h3>
+                    <div>
+                        <form id="myForm">
+                            <label for="name">Your Name <span class="required">*</span> :</label>
+                            <label for="email">Your Email <span class="required">*</span> :</label>
+                            <div>
+                                <input type="text" id="name">
+                                <input type="email" id="email">
+                            </div>
+                            <label for="message" class="label1">Message<span class="required">*</span>:</label>
+                            <textarea id="message" cols="10" rows="10" maxlength="752" minlength="10"></textarea>
+                            <div class="input-container">
+                                <label for="code">Enter Code <span class="required">*</span> :</label>
+                                <div class="input-wrapper">
+                                  <input type="text" id="code"/>
+                                  <span class="code-display">34 FR14</span>
+                                </div>
+                            </div>                          
+                            <button class="red" type="submit" id="resetBtn">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <img src="/img/main/footer__image.svg">
+            <p>
+                <a href="/index.html">Home</a>
+                <a href="/dist/About_the_club.html">About the club</a>
+                <a href="/dist/FAQ.html">FAQ</a>
+                <a href="/dist/News.html">News</a>
+                <a href="/dist/Rules.html">Rules</a>
+                <a href="#">Contacts</a>
+            </p>
+            <div>
+                <img src="/img/main/instagramm-2.svg">
+                <img src="/img/main/YouTube-2.svg">
+                <img src="/img/main/Facebook-2.svg">
+                <img src="/img/main/Twitter-2.svg">
+            </div>
+            <section>
+                <p>Copyright © 2024 Bayern Token. All rights reserved.</p>
+            </section>
+        </footer>
+    </div>
+
+    <script src="/js/contacts.js"></script>
+</body>
+</html>

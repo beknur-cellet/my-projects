@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+
+html {scroll-behavior: smooth;}
+
+body {overflow-x: hidden}
+
+div.container {padding: 30px 119.703px}
+
+header {
+    width: 86vw;
+    height: 134.62px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p ,footer p{
+    text-transform: uppercase;
+    width: 1002px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+header p a,footer p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s ease;
+    position: relative;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+header p a:hover, footer p a:hover {color: #DC052D}
+
+header p a::after, footer p a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #DC052D;
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+}
+
+header p a:hover::after, footer p a:hover::after {transform: scaleX(1)}
+
+header p a.active {
+    color: #DC052D;
+    text-decoration: underline #DC052D;
+}
+
+header p a.active::after {display: none}
+
+header p a.active:hover {
+    color: #ad0c29;
+    text-decoration: #ad0c29 underline ;
+}
+
+section.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+section.first div.text h1 {
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 110px;
+}
+
+section.first div.logos img {
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+section.first div.logos img:hover {
+    margin-left: -10px;
+    scale: 1.1;
+}
+
+footer>img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    right: 180px;
+    top: 50px;
+}
+
+footer>p {
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+footer p a:not(:last-of-type){margin-right: 87px}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+footer div img {
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+footer div img:hover {
+    transform: scale(1.1);
+    margin-top: -10px;
+}
+
+footer section p {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+}
+
+footer section::after {
+    content: 'FC BAYERN FAN TOKEN';
+    position: absolute;
+    color: #A000304D;
+    font-weight: 700;
+    font-size: 143px;
+    line-height: 110px;
+    width: 100%;
+    margin-top: -34px;
+    z-index: -1;
+}
+
+button {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    box-shadow: 0px 2px 5px 0px #00000040;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:not(button.red) {margin-left: 20px}
+
+button.red {background: #DC052D}
+
+button.red:hover {
+    background: #FFFFFF;
+    color: #DC052D;
+}
+
+button.red:active {
+    background: #ffffff99;
+    color: #dc052ca9;
+}
+
+button.blue {background: #0066B2;}
+
+button.blue:hover {
+    background: #FFFFFF;
+    color: #0066B2;
+}
+
+button.blue:active {
+    background: #ffffff99;
+    color: #0065b2a3;
+}
